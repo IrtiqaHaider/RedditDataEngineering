@@ -1,0 +1,11 @@
+*__pycache__
+
+venv 
+
+data/output/*
+
+logs
+
+config/*
+
+.env

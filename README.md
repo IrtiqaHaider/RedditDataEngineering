@@ -20,7 +20,9 @@ The pipeline is designed to:
 4. Load the transformed data into Amazon Redshift for analytics and querying.
 
 ## Architecture
+
 ![RedditDataEngineering.png](assets%2FRedditDataEngineering.png)
+
 1. **Reddit API**: Source of the data.
 2. **Apache Airflow & Celery**: Orchestrates the ETL process and manages task distribution.
 3. **PostgreSQL**: Temporary storage and metadata management.
@@ -30,12 +32,14 @@ The pipeline is designed to:
 7. **Amazon Redshift**: Data warehousing and analytics.
 
 ## Prerequisites
+
 - AWS Account with appropriate permissions for S3, Glue, Athena, and Redshift.
 - Reddit API credentials.
 - Docker Installation
 - Python 3.9 or higher
 
 ## System Setup
+
 1. Clone the repository.
    ```bash
     git clone https://github.com/IrtiqaHaider/RedditDataEngineering.git
@@ -64,7 +68,3 @@ The pipeline is designed to:
    ```bash
     open http://localhost:8080
    ```
-
-
-## Video
-[![Reddit Data Engineering](https://img.youtube.com/vi/LSlt6iVI_9Y/0.jpg)](https://www.youtube.com/watch?v=LSlt6iVI_9Y)
